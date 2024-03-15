@@ -233,3 +233,46 @@ h4 {
 }
  
 }
+
+@media (max-width: 600px) {
+    .box {
+        width: 95%;
+        overflow: auto;
+    }
+
+    .search input {
+        width: 90%;
+        height: 3rem;
+        font-size: 1rem;
+    }
+
+    .search button {
+        margin: 20px auto 0;
+    }
+
+    .search div .fa {
+        font-size: 1.5rem;
+        top: 1.5rem;
+        left: 1.5rem;
+    }
+
+    .col img {
+        width: 20px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    .detail div {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .temp2 {
+        padding: 10px;
+    }
+
+    .temp2 h1,
+    .temp2 h4 {
+        font-size: 1rem;
+    }
+}
